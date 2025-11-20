@@ -1,0 +1,236 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #303030;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #202020;
+    border: #202020 solid;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
+}
+nav {
+    display: flex;
+
+}
+
+.detalhesHeader1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#carro {
+    background-color: #009E2A;
+    border-radius: 18px;
+    height: 60px;
+    width: 200px;
+}
+
+.detalhesHeader {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+#carro {
+    background-color: #009E2A;
+    border-radius: 18px;
+    height: 60px;
+    width: 200px;
+    justify-content: center; 
+    align-items: center;
+}
+
+#carroimg {
+    margin-right: 5px;
+}
+
+
+.detalhesHeader {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+#headerTitle {
+    display: flex;
+    color: white;
+}
+
+#pesquisa {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: #424242;
+    color: #808388;
+    font-size: 20px;
+    height: 50px;
+    width: 600px;
+    border-radius: 15px;
+    padding-left: 15px; 
+}
+
+#pesquisaDecoracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BF00FF;
+    height: 50px;
+    width: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+#headerDecoracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BF00FF;
+    gap: 30px;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+.botaoHeader {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #BF00FF;
+    width: 200px;
+    height: 100%;
+}
+
+#aaa {
+    color: white;
+    text-decoration: none;
+}
+
+#megacard {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#conjuntoFotinhas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ftconjunto {
+    border-radius: 20px;
+}
+
+.ajustTexto {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.ajustTexto2 {
+    font-size: 13px;
+    gap: -50px;
+}
+
+.verde {
+    color: #00A202;
+}
+
+.vermelho {
+    color: #FF0000;
+}
+
+.branco {
+    color: white;
+}
+
+.traco {
+    width: 100%;
+    height: 4px;
+    color: #3F3F3F;
+    border: solid #3F3F3F;
+}
+
+.decoracao11 {
+    background-color: #BF00FF;
+    width: 190px;
+    height: 31px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.detalhe33 {
+    background-color: #009E2A;
+    width: 435px;
+    height: 75px;
+    font-size: 13px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.parceladetalhe{
+    background-color: #424242;
+    width: auto;
+    height: auto;
+    border-radius: 8px;
+    font-size: 13px;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    background-color: #202020;
+    margin-top: auto;
+}
+
+#footerF {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left: 3%;
+    gap: 200px;
+}
+
+
+.textoFooter {
+    display: flex;
+    font-size: 16px;
+    color: #BF00FF;
+}
+.textoFooter2 {
+    display: flex;
+    font-size: 13px;
+    color: white;
+}
+
+#divMail {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 304px;
+    height: 36px;
+    border-radius: 10px;
+    color: #9893A1;
+}

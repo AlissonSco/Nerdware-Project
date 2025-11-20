@@ -1,0 +1,258 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-color: #303030;
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header {
+    display: flex;
+    background-color: #202020;
+    border: #202020 solid;
+    min-height: 50px;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0 20px;
+}
+nav {
+    display: flex;
+
+}
+
+.detalhesHeader1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+#carro {
+    background-color: #009E2A;
+    border-radius: 18px;
+    height: 60px;
+    width: 200px;
+}
+
+.detalhesHeader {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+#carro {
+    background-color: #009E2A;
+    border-radius: 18px;
+    height: 60px;
+    width: 200px;
+    justify-content: center; 
+    align-items: center;
+}
+
+#carroimg {
+    margin-right: 5px;
+}
+
+
+.detalhesHeader {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+#headerTitle {
+    display: flex;
+    color: white;
+}
+
+#pesquisa {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+    background-color: #424242;
+    color: #808388;
+    font-size: 20px;
+    height: 50px;
+    width: 600px;
+    border-radius: 15px;
+    padding-left: 15px; 
+}
+
+#pesquisaDecoracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BF00FF;
+    height: 50px;
+    width: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+#headerDecoracao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BF00FF;
+    gap: 30px;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+#aaa {
+    color: white;
+    text-decoration: none;
+}
+
+.botaoHeader {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #BF00FF;
+    width: 200px;
+    height: 100%;
+}
+
+#botaoHeaderContato {
+    text-decoration: none;
+    color: white;
+    background-color: #4B0082;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.cardsPequenos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.ajust {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: #f7eeef;
+    width: 300px;
+    padding: 25px 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.card h5 {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.card h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.grandeCard {
+    background: #d100ff;
+    width: 600px;
+    padding: 40px 60px;
+    border-radius: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grandeCard h2 {
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.grandeCard form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.grandeCard input,
+.grandeCard textarea {
+    width: 100%;
+    padding: 13px;
+    background: #f7eeef;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+}
+
+.grandeCard textarea {
+    height: 110px;
+}
+
+.grandeCard button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #202020;
+    margin-top: auto;
+}
+
+#footerF {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    left: 3%;
+    gap: 200px;
+    
+}
+
+.textoFooter {
+    display: flex;
+    font-size: 16px;
+    color: #BF00FF;
+}
+.textoFooter2 {
+    display: flex;
+    font-size: 13px;
+    color: white;
+}
+
+#divMail {
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 304px;
+    height: 36px;
+    border-radius: 10px;
+    color: #9893A1;
+}
