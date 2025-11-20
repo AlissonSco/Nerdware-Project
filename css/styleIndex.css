@@ -24,6 +24,10 @@ nav {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 .detalhesHeader1 {
     display: flex;
     align-items: center;
@@ -107,10 +111,6 @@ nav {
     color: white;
     border: none;
     height: 40px;
-}
-
-a {
-    text-decoration: none;
 }
 
 .botaoHeader {
@@ -355,5 +355,4 @@ footer {
     height: 36px;
     border-radius: 10px;
     color: #9893A1;
-
 }
